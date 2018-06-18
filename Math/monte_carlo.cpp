@@ -4,7 +4,7 @@
 
 int main() {
     unsigned inside = 0; // count of how many random elems fall within a circle
-    unsigned trials = 1000000000;
+    unsigned trials = 50000000;
     for (unsigned count = 1; count < trials; count++) {
         // random x and y values between -1 and 1
         double rand_x = (rand() % 200000000) / 100000000.0 - 1;
